@@ -66,5 +66,6 @@ group :test do
   gem "selenium-webdriver"
 end 
 # Json Web Token for token based authentication
-gem 'jwt'
-
+gem 'jwt' 
+gem 'kaminari' # Use pagination 
+gem "active_model_serializers", "~> 0.10.15"
